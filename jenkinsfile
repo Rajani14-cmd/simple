@@ -3,7 +3,7 @@ pipeline {     agent any
         jdk 'jdk'
     }     stages {
         stage('Checkout') {             steps {
-                git branch: 'main', url: 'https://github.com/Devansha-Awasthi/sample-mavenproject.git'
+                git branch: 'main', url: 'https://github.com/Rajani14-cmd/simple.git'
             }
         }
         stage('Build') {
